@@ -1,0 +1,43 @@
+body {
+      background-image:url("/Users/yui/Downloads/yui pict/IMG_0449.jpg");
+      background-size: cover;
+      backdrop-filter: blur(4px);
+      background-repeat: none;
+      text-align: center;
+}
+h1 {
+      font-size:25px;
+}
+h2 {
+      font-size:18px;      
+}
+p {
+      font-size:14px;
+}
+.basic {
+      background-color: aliceblue;      
+      width:600px;
+      height:330px;
+      margin:auto;
+      margin-bottom: 40px;
+      border: 2px outset；
+}
+.personal {
+      background-color: aliceblue;      
+      width:600px;
+      height:250px;
+      margin:auto;
+      margin-bottom: 40px;
+      border: 2px outset;
+}
+.comment {
+      background-color: aliceblue;      
+      width:600px;
+      height:200px;
+      margin:auto;
+      margin-bottom: 30px;
+      border: 2px outset;
+}
+.footer {
+
+}
