@@ -1,43 +1,102 @@
 body {
-      background-image:url("/Users/yui/Downloads/yui pict/IMG_0449.jpg");
+      background-image: url("/Users/yui/Downloads/yui_image/IMG_0449.jpg");
       background-size: cover;
       backdrop-filter: blur(4px);
-      background-repeat: none;
       text-align: center;
 }
-h1 {
-      font-size:25px;
-}
-h2 {
-      font-size:18px;      
-}
-p {
-      font-size:14px;
-}
-.basic {
-      background-color: aliceblue;      
-      width:600px;
-      height:330px;
-      margin:auto;
-      margin-bottom: 40px;
-      border: 2px outset；
-}
-.personal {
-      background-color: aliceblue;      
-      width:600px;
-      height:250px;
-      margin:auto;
-      margin-bottom: 40px;
-      border: 2px outset;
-}
-.comment {
-      background-color: aliceblue;      
-      width:600px;
-      height:200px;
-      margin:auto;
+section {
+      display: flex;
+      align-items: center;
+      margin-left: 600px;    
       margin-bottom: 30px;
-      border: 2px outset;
+      line-height: normal;
 }
-.footer {
+
+section h1 {
+      position: ralative;
+      display: inline-block;
+      padding: 0 55px;
+}
+
+img {
+      width: 180px;
+      height: 190px;
+      border-radius: 50%;
 
 }
+
+span {
+      margin-left: 20px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 40px;
+}
+
+h1 {
+      font-size: 30px;
+}
+
+h2 {
+      font-family: 'Corben' , cursive;
+      font-size: 25px;
+}
+
+h3 {
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
+}
+
+p {
+      font-family:cursive;
+      font-size: 15px;
+}
+
+.basic {
+      border: 2px outset;
+      width: 600px;
+      height: 330px;
+      margin: auto;
+      margin-bottom: 40px;
+      background-color:rgba(255, 255, 255, 0.7);
+}
+
+.personal {
+      order: 2px outset;
+      width: 600px;
+      height: 250px;
+      margin: auto;
+      margin-bottom: 40px;
+      padding-top: 10px;
+      background-color:rgba(255, 255, 255, 0.7);
+}
+
+.comment {
+      order: 2px outset;
+      width: 600px;
+      height: 200px;
+      margin: auto;
+      margin-bottom: 30px;
+      padding-top: 10px;
+      background-color:rgba(255, 255, 255, 0.7);
+}
+
+label, input[text] {
+      display:block;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
+}
+
+input[text] {
+      border: 1px solid #ccc;
+}
+
+fieldset {
+      border: 0px none;
+
+}
+
+footer p {
+      font-weight: bold;
+}
+
+
