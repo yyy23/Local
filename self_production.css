@@ -57,7 +57,7 @@ p {
       height: 330px;
       margin: auto;
       margin-bottom: 40px;
-      background-color:aliceblue;
+      background-color:rgba(255, 255, 255, 0.7);
 }
 
 .personal {
@@ -67,8 +67,9 @@ p {
       margin: auto;
       margin-bottom: 40px;
       padding-top: 10px;
-      background-color:aliceblue;
+      background-color:rgba(255, 255, 255, 0.7);
 }
+
 .comment {
       order: 2px outset;
       width: 600px;
@@ -76,11 +77,13 @@ p {
       margin: auto;
       margin-bottom: 30px;
       padding-top: 10px;
-      background-color:aliceblue;
+      background-color:rgba(255, 255, 255, 0.7);
 }
 
 label, input[text] {
       display:block;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20px;
 }
 
 input[text] {
@@ -88,10 +91,12 @@ input[text] {
 }
 
 fieldset {
-      border: 1px solid #ccc; 
+      border: 0px none;
+
 }
 
-fieldset label{
-      margin: 0;
-      padding: 0;
+footer p {
+      font-weight: bold;
 }
+
+
